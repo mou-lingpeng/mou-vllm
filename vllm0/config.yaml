@@ -1,0 +1,11 @@
+model: "Qwen3-0.6B"
+
+
+prompt: "Hello, my name is"
+max_new_tokens: 200
+temperature: 0.9
+top_p: 0.95
+top_k: 20
+
+
+dtype: "auto"
