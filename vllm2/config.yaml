@@ -1,0 +1,21 @@
+model: "Qwen3-0.6B"
+
+
+prompt: "Hello, my name is"
+max_new_tokens: 200
+temperature: 0.9
+top_p: 0.95
+top_k: 20
+
+
+dtype: "auto"
+context_len: 2048
+
+
+block_size: 16
+prefix_backend: "hash"
+
+
+max_num_seqs: 8
+max_num_batched_tokens: 4096
+mix_prefill_decode: true
